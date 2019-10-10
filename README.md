@@ -1,3 +1,3 @@
-Contao 4 Tracking Manager Bundle
+Contao 4 Slashworks Backend Theme
 ================================
 

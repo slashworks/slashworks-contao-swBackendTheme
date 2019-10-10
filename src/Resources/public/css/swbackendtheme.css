@@ -1,0 +1,43 @@
+
+
+/* ==========================================================================
+   frame
+========================================================================== */
+
+/* $c-sblue = #00bed7; */
+/* $bz-red = #c22118; */
+
+
+#header .inner {
+    background: #c22118;
+}
+#tl_navigation .tl_level_2 li.active {
+    border-left-color: #c22118;
+}
+
+#header h1 a{
+    background: url(/bundles/contaoswbackendtheme/img/bz_logo.svg) no-repeat 10px center;
+    display: inline-block;
+    background-size: 30px auto;
+}
+
+#header h1 a#bz_support{
+    padding: 0;
+    background: none;
+}
+
+body:after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background-image: url(/bundles/contaoswbackendtheme/img/bz_logo.svg);
+    background-repeat: no-repeat;
+    background-size: 40vw auto;
+    background-position: 10px center;
+    opacity: .1;
+    filter:blur(.8vw);
+}
