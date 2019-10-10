@@ -1,5 +1,5 @@
 {
-  "name": "slashworks/contao-trackingmanager-bundle",
+  "name": "slashworks/contao-swBackendTheme",
   "type": "contao-bundle",
   "description": "Contao Cookie Manager",
   "license": "LGPL-3.0-or-later",
@@ -28,16 +28,16 @@
     "symfony/phpunit-bridge": "^3.2"
   },
   "extra": {
-    "contao-manager-plugin": "Slashworks\\ContaoTrackingManagerBundle\\ContaoManager\\Plugin"
+    "contao-manager-plugin": "Slashworks\\ContaoSwBackendThemeBundle\\ContaoManager\\Plugin"
   },
   "autoload": {
     "psr-4": {
-      "Slashworks\\ContaoTrackingManagerBundle\\": "src/"
+      "Slashworks\\ContaoSwBackendThemeBundle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Slashworks\\ContaoTrackingManagerBundle\\Tests\\": "tests/"
+      "Slashworks\\ContaoSwBackendThemeBundle\\Tests\\": "tests/"
     }
   },
   "support": {

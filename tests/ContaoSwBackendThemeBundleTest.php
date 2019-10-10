@@ -8,17 +8,17 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Slashworks\ContaoTrackingManagerBundle\Tests;
+namespace Slashworks\ContaoSwBackendThemeBundle\Tests;
 
 use PHPUnit\Framework\TestCase;
 use Slashworks\ContaoSimpleSvgIconsBundle\ContaoSimpleSvgIconsBundle;
 
-class ContaoTrackingManagerBundleTest extends TestCase
+class ContaoSwBackendThemeBundleTest extends TestCase
 {
     public function testCanBeInstantiated()
     {
-        $bundle = new ContaoTrackingManagerBundle();
+        $bundle = new ContaoSwBackendThemeBundle();
 
-        $this->assertInstanceOf('Slashworks\ContaoTrackingManagerBundle\ContaoTrackingManagerBundle', $bundle);
+        $this->assertInstanceOf('Slashworks\ContaoSwBackendThemeBundle\ContaoSwBackendThemeBundle', $bundle);
     }
 }
